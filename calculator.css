@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  align-items: center;
+  border: 2px black solid;
+  border-radius: 6%;
+  background-color: darkgray;
+  background: radial-gradient(rgb(138, 126, 126) 10px, rgb(96, 96, 88) 30%, #393d41 85%);
+}
+table tr #display {
+  border-radius: 0%;
+  height: 50px;
+}
+table tr td {
+  border: 2px black solid;
+  border-radius: 50%;
+  background-color: lightgray;
+  text-align: center;
+  cursor: pointer;
+}/*# sourceMappingURL=calculator.css.map */

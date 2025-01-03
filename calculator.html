@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/calculator.css">
+</head>
+<body>
+    <table border="1" align="center" cellspacing="20px" cellpadding="10px">
+        <tr>
+            <td id="display" colspan="4"></td>
+        </tr>
+        <tr>
+            <td onclick="pressed('1')">1</td>
+            <td onclick="pressed('2')">2</td>
+            <td onclick="pressed('3')">3</td>
+            <td onclick="pressed('4')">4</td>
+        </tr>
+        <tr>
+            <td onclick="pressed('5')">5</td>
+            <td onclick="pressed('6')">6</td>
+            <td onclick="pressed('7')">7</td>
+            <td onclick="pressed('8')">8</td>
+        </tr>
+        <tr>
+            <td onclick="pressed('9')">9</td>
+            <td onclick="pressed('0')">0</td>
+            <td onclick="pressed('00')">00</td>
+            <td onclick="pressed('.')">.</td>
+        </tr>
+        <tr>
+            <td onclick="pressed('-')">-</td>
+            <td onclick="pressed('*')">*</td>
+            <td onclick="pressed('%')">%</td>
+            <td onclick="pressed('+')">+</td>
+        </tr>
+        <tr>
+            <td onclick="sq()">sq</td>
+        </tr>
+        <tr>
+            <td onclick="del()">Del</td>
+            <td onclick="ac()">AC</td>
+             <td onclick="pressed('/')">/</td>
+             <td onclick="equall()">=</td>
+        </tr>
+
+    </table>
+     <script src="/calculator.js"></script>
+</body>
+</html>
