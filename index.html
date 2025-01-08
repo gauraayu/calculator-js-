@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayu Calculator</title>
+    <link rel="icon" href="/Calculator-icon.png">
+    <link rel="stylesheet" href="/calculator.css">
+</head>
+<body>
+   
+ <table  align="center" cellspacing="8px" > 
+<!-- <tr>
+    <td onclick="toggleCalculator()">On/Off</td>
+</tr> -->
+        <tr >
+            <td id="display" colspan="4"></td>
+        </tr>
+        <tr>
+            <td onclick="del()" colspan="2" id="eq">Delete</td>
+            <td onclick="ac()" id="blue">AC</td>
+            <td onclick="sq()" id="blue">Sq.</td>
+           
+            
+
+        </tr>
+        <tr>
+            <td onclick="cube()" id="blue">Cube</td>
+            <td onclick="pressed('-')" id="blue">-</td>
+            <td onclick="pressed('/')" id="blue">/</td>
+            <td onclick="pressed('%')" id="blue">%</td>
+
+            
+        </tr>
+        <tr>
+            <td onclick="pressed('7')">7</td>
+            <td onclick="pressed('8')">8</td>
+            <td onclick="pressed('9')">9</td>
+            <td onclick="pressed('*')" id="blue">*</td>
+
+        </tr>
+        <tr>
+
+            
+            <td onclick="pressed('4')">4</td>
+            <td onclick="pressed('5')">5</td>
+            <td onclick="pressed('6')">6</td>
+            <td onclick="pressed('+')" id="blue">+</td>
+      
+        </tr>
+        <tr>
+           
+           
+            <td onclick="pressed('1')">1</td>
+            <td onclick="pressed('2')">2</td>
+            <td onclick="pressed('3')">3</td>
+            <td onclick="equall()" rowspan="2" id="eq">=</td>
+        </tr>
+        <tr>
+            
+            <td onclick="pressed('0')">0</td>
+            <td onclick="pressed('00')">00</td>
+            <td onclick="pressed('.')">.</td>
+        </tr>
+        <tr >
+            <td id="ft"></td>
+            <td id="ft"></td>
+            <td colspan="2" id="ft"><p>Designed By Aayu G.</p></td>
+        </tr>
+        
+
+    </table>
+
+     <script src="/calculator.js"></script>
+</body>
+</html>

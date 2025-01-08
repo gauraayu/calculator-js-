@@ -1,5 +1,6 @@
 let store=""
 // let ans=""
+
 let pressed=(value)=>{
     let show=document.querySelector("#display")
     store=store+value;
@@ -31,4 +32,9 @@ let sq=()=>{
     store=store*store;
     show.innerHTML=store;
 
+}
+let cube=()=>{
+    let show=document.querySelector("#display")
+    store=store*store*store
+    show.innerHTML=store;
 }
